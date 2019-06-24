@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".image_album_showActivity"
+    >
+
+
+    <ImageView
+        android:id="@+id/V_Image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/result"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioGroup
+        android:id="@+id/age_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+    <RadioButton
+        android:id="@+id/age20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="20岁" />
+
+    <RadioButton
+        android:id="@+id/age30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30岁" />
+
+    <RadioButton
+        android:id="@+id/age40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40岁" />
+
+    <RadioButton
+        android:id="@+id/age50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50岁" />
+
+    <RadioButton
+        android:id="@+id/age60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="60岁" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Return_Back_to_page1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" />
+
+</LinearLayout>
